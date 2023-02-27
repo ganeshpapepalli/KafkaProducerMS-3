@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+    consumer:
+      group-id: lulugroup
+    admintopicName: admintopic
+    customertopicName: consumertopic
+    stringtopicName: stringtopic3
+    
+server:
+  port: 8002
